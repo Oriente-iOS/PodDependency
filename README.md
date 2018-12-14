@@ -13,7 +13,7 @@ Enter the server folder:
 1. npm install
 2. npm run start
 
-# start
+# Beginning
 
 1. open http://localhost:7001/public/index.html
 

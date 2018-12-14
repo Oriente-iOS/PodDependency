@@ -32,4 +32,4 @@ Enter the server folder:
 
 6. showing all information
 
-![Step 4](https://github.com/Oriente-iOS/PodDependency/blob/master/step-3.png)
+![Step 4](https://github.com/Oriente-iOS/PodDependency/blob/master/step-4.png)

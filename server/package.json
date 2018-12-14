@@ -1,0 +1,59 @@
+{
+  "name": "PodsManagement",
+  "version": "1.0.0",
+  "description": "manage the Pods",
+  "private": true,
+  "dependencies": {
+    "egg": "^2.2.1",
+    "egg-cors": "^2.1.2",
+    "egg-scripts": "^2.5.0",
+    "egg-socket.io": "^4.1.5",
+    "egg-static": "^2.1.1",
+    "egg-view-nunjucks": "^2.2.0",
+    "esprima": "^4.0.1",
+    "koa": "^2.6.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "libgit2": "^0.1.0",
+    "lodash": "^4.17.11",
+    "nodegit": "^0.23.0",
+    "semver": "^5.6.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^4.3.5",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^6.0.0",
+    "webstorm-disable-index": "^1.2.0",
+    "await-stream-ready": "^1.0.1",
+    "md5": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --sticky --title=egg-server-PodsManagement",
+    "stop": "egg-scripts stop --title=egg-server-PodsManagement",
+    "dev": "egg-bin dev --sticky",
+    "debug": "egg-bin debug --sticky",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "mathewwang",
+  "license": "MIT"
+}

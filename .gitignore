@@ -59,3 +59,36 @@ typings/
 
 # next.js build output
 .next
+
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+
+# End of https://www.gitignore.io/api/node,macos
+
+server/logs/
+server/npm-debug.log
+server/yarn-error.log
+server/node_modules/
+server/package-lock.json
+server/yarn.lock
+server/coverage/
+server/.idea/
+server/run/
+server/.DS_Store
+server/*.sw*
+server/*.un~
+server/app/public/
+client/dist/
+client/package-lock.json
+client/node_modules/

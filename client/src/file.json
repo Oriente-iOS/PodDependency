@@ -1,0 +1,1621 @@
+{
+  "AFNetworking": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "AFNetworking": {
+            "podName": "AFNetworking",
+            "constraint": "=",
+            "version": "3.1.0"
+          },
+          "Aspects": {
+            "podName": "Aspects",
+            "constraint": "=",
+            "version": "1.4.1a"
+          },
+          "FCUUID": {
+            "podName": "FCUUID",
+            "constraint": "=",
+            "version": "1.3.1"
+          },
+          "Masonry": {
+            "podName": "Masonry",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ObjectiveSugar": {
+            "podName": "ObjectiveSugar",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ReactiveCocoa": {
+            "podName": "ReactiveCocoa",
+            "constraint": "=",
+            "version": "2.5"
+          },
+          "RegExCategories": {
+            "podName": "RegExCategories",
+            "constraint": "=",
+            "version": "1.0"
+          }
+        },
+        "podName": "OrienteBase",
+        "remoteRepo": "",
+        "version": "1.0.2",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "AFNetworking",
+    "remoteRepo": "",
+    "version": "3.1.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "AppsFlyerFramework": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "AppsFlyerFramework",
+    "remoteRepo": "",
+    "version": "4.8.6",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "Aspects": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "AFNetworking": {
+            "podName": "AFNetworking",
+            "constraint": "=",
+            "version": "3.1.0"
+          },
+          "Aspects": {
+            "podName": "Aspects",
+            "constraint": "=",
+            "version": "1.4.1a"
+          },
+          "FCUUID": {
+            "podName": "FCUUID",
+            "constraint": "=",
+            "version": "1.3.1"
+          },
+          "Masonry": {
+            "podName": "Masonry",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ObjectiveSugar": {
+            "podName": "ObjectiveSugar",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ReactiveCocoa": {
+            "podName": "ReactiveCocoa",
+            "constraint": "=",
+            "version": "2.5"
+          },
+          "RegExCategories": {
+            "podName": "RegExCategories",
+            "constraint": "=",
+            "version": "1.0"
+          }
+        },
+        "podName": "OrienteBase",
+        "remoteRepo": "",
+        "version": "1.0.2",
+        "vc": "=",
+        "branchType": "tag"
+      },
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [
+              {
+                "inversionDependencies": [],
+                "dependencies": {
+                  "OrienteLogin": {
+                    "podName": "OrienteLogin",
+                    "constraint": "=",
+                    "version": "0.0.6"
+                  },
+                  "OrienteUtil": {
+                    "podName": "OrienteUtil",
+                    "constraint": "=",
+                    "version": "1.0.3"
+                  }
+                },
+                "podName": "OrienteSignUp",
+                "remoteRepo": "",
+                "version": "0.0.6",
+                "vc": "=",
+                "branchType": "tag"
+              }
+            ],
+            "dependencies": {
+              "OrienteSessionManager": {
+                "podName": "OrienteSessionManager",
+                "constraint": "=",
+                "version": "1.0.1"
+              },
+              "OrienteUserManager": {
+                "podName": "OrienteUserManager",
+                "constraint": "=",
+                "version": "0.0.5"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteLogin",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "Aspects": {
+            "podName": "Aspects",
+            "constraint": "=",
+            "version": "1.4.1a"
+          },
+          "ReactiveCocoa": {
+            "podName": "ReactiveCocoa",
+            "constraint": "=",
+            "version": "2.5"
+          }
+        },
+        "podName": "OrienteSessionManager",
+        "remoteRepo": "",
+        "version": "1.0.1",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "Aspects",
+    "remoteRepo": "https://github.com/wangyunico/Aspects.git",
+    "version": "1.4.1a",
+    "branchType": "tag"
+  },
+  "cashalo-hybrid": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "cashalo-hybrid",
+    "remoteRepo": "",
+    "version": "1.4.0.27",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "CashaloFacePP": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "CashaloFacePP",
+    "remoteRepo": "./CashaloFacePP/",
+    "version": "",
+    "branchType": "tag"
+  },
+  "CashaloLocalization": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "CashaloLocalization",
+    "remoteRepo": "./CashaloLocalization/",
+    "version": "",
+    "branchType": "tag"
+  },
+  "CocoaLumberjack": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "CocoaLumberjack",
+    "remoteRepo": "",
+    "version": "3.3.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "Crashlytics": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "Crashlytics",
+    "remoteRepo": "",
+    "version": "3.10.7",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "FBRetainCycleDetector": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "FBRetainCycleDetector": {
+            "podName": "FBRetainCycleDetector",
+            "constraint": "="
+          }
+        },
+        "podName": "MLeaksFinder",
+        "remoteRepo": "",
+        "version": "1.0.0",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "FBRetainCycleDetector",
+    "remoteRepo": "",
+    "version": "0.1.4",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "FBSDKCoreKit": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "FBSDKCoreKit": { "podName": "FBSDKCoreKit", "constraint": "=" }
+        },
+        "podName": "FBSDKLoginKit",
+        "remoteRepo": "",
+        "version": "4.29.0",
+        "vc": "=",
+        "branchType": "tag"
+      },
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "FBSDKCoreKit": {
+            "podName": "FBSDKCoreKit",
+            "constraint": "~>",
+            "version": "4.37.0"
+          }
+        },
+        "podName": "FBSDKShareKit",
+        "remoteRepo": "",
+        "version": "4.37.0",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "FBSDKCoreKit",
+    "remoteRepo": "",
+    "version": "4.37.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "FBSDKLoginKit": {
+    "inversionDependencies": [],
+    "dependencies": {
+      "FBSDKCoreKit": { "podName": "FBSDKCoreKit", "constraint": "=" }
+    },
+    "podName": "FBSDKLoginKit",
+    "remoteRepo": "",
+    "version": "4.29.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "FBSDKMessengerShareKit": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "FBSDKMessengerShareKit",
+    "remoteRepo": "",
+    "version": "1.3.2",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "FBSDKShareKit": {
+    "inversionDependencies": [],
+    "dependencies": {
+      "FBSDKCoreKit": {
+        "podName": "FBSDKCoreKit",
+        "constraint": "~>",
+        "version": "4.37.0"
+      }
+    },
+    "podName": "FBSDKShareKit",
+    "remoteRepo": "",
+    "version": "4.37.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "FCUUID": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "AFNetworking": {
+            "podName": "AFNetworking",
+            "constraint": "=",
+            "version": "3.1.0"
+          },
+          "Aspects": {
+            "podName": "Aspects",
+            "constraint": "=",
+            "version": "1.4.1a"
+          },
+          "FCUUID": {
+            "podName": "FCUUID",
+            "constraint": "=",
+            "version": "1.3.1"
+          },
+          "Masonry": {
+            "podName": "Masonry",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ObjectiveSugar": {
+            "podName": "ObjectiveSugar",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ReactiveCocoa": {
+            "podName": "ReactiveCocoa",
+            "constraint": "=",
+            "version": "2.5"
+          },
+          "RegExCategories": {
+            "podName": "RegExCategories",
+            "constraint": "=",
+            "version": "1.0"
+          }
+        },
+        "podName": "OrienteBase",
+        "remoteRepo": "",
+        "version": "1.0.2",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "FCUUID",
+    "remoteRepo": "",
+    "version": "1.3.1",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "FMDB": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "FMDB",
+    "remoteRepo": "",
+    "version": "2.7.2",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "IQKeyboardManager": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "IQKeyboardManager",
+    "remoteRepo": "",
+    "version": "4.0.7",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "Kiwi": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "Kiwi",
+    "remoteRepo": "",
+    "version": "2.4.0",
+    "vc": "~>",
+    "branchType": "tag"
+  },
+  "Masonry": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "AFNetworking": {
+            "podName": "AFNetworking",
+            "constraint": "=",
+            "version": "3.1.0"
+          },
+          "Aspects": {
+            "podName": "Aspects",
+            "constraint": "=",
+            "version": "1.4.1a"
+          },
+          "FCUUID": {
+            "podName": "FCUUID",
+            "constraint": "=",
+            "version": "1.3.1"
+          },
+          "Masonry": {
+            "podName": "Masonry",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ObjectiveSugar": {
+            "podName": "ObjectiveSugar",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ReactiveCocoa": {
+            "podName": "ReactiveCocoa",
+            "constraint": "=",
+            "version": "2.5"
+          },
+          "RegExCategories": {
+            "podName": "RegExCategories",
+            "constraint": "=",
+            "version": "1.0"
+          }
+        },
+        "podName": "OrienteBase",
+        "remoteRepo": "",
+        "version": "1.0.2",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "Masonry",
+    "remoteRepo": "",
+    "version": "1.1.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "MJExtension": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [],
+            "dependencies": {
+              "OrienteUI": {
+                "podName": "OrienteUI",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteServiceCluster",
+            "remoteRepo": "",
+            "version": "1.0.0",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "MJExtension": {
+            "podName": "MJExtension",
+            "constraint": "=",
+            "version": "3.0.13"
+          },
+          "OrienteUtil": {
+            "podName": "OrienteUtil",
+            "constraint": "=",
+            "version": "1.0.3"
+          }
+        },
+        "podName": "OrienteUI",
+        "remoteRepo": "",
+        "version": "1.0.3",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "MJExtension",
+    "remoteRepo": "",
+    "version": "3.0.13",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "MJRefresh": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "MJRefresh",
+    "remoteRepo": "",
+    "version": "3.1.15.1",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "MLeaksFinder": {
+    "inversionDependencies": [],
+    "dependencies": {
+      "FBRetainCycleDetector": {
+        "podName": "FBRetainCycleDetector",
+        "constraint": "="
+      }
+    },
+    "podName": "MLeaksFinder",
+    "remoteRepo": "",
+    "version": "1.0.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "ObjectiveSugar": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "AFNetworking": {
+            "podName": "AFNetworking",
+            "constraint": "=",
+            "version": "3.1.0"
+          },
+          "Aspects": {
+            "podName": "Aspects",
+            "constraint": "=",
+            "version": "1.4.1a"
+          },
+          "FCUUID": {
+            "podName": "FCUUID",
+            "constraint": "=",
+            "version": "1.3.1"
+          },
+          "Masonry": {
+            "podName": "Masonry",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ObjectiveSugar": {
+            "podName": "ObjectiveSugar",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ReactiveCocoa": {
+            "podName": "ReactiveCocoa",
+            "constraint": "=",
+            "version": "2.5"
+          },
+          "RegExCategories": {
+            "podName": "RegExCategories",
+            "constraint": "=",
+            "version": "1.0"
+          }
+        },
+        "podName": "OrienteBase",
+        "remoteRepo": "",
+        "version": "1.0.2",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "ObjectiveSugar",
+    "remoteRepo": "",
+    "version": "1.1.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "OrienteBase": {
+    "inversionDependencies": [],
+    "dependencies": {
+      "AFNetworking": {
+        "podName": "AFNetworking",
+        "constraint": "=",
+        "version": "3.1.0"
+      },
+      "Aspects": {
+        "podName": "Aspects",
+        "constraint": "=",
+        "version": "1.4.1a"
+      },
+      "FCUUID": { "podName": "FCUUID", "constraint": "=", "version": "1.3.1" },
+      "Masonry": {
+        "podName": "Masonry",
+        "constraint": "=",
+        "version": "1.1.0"
+      },
+      "ObjectiveSugar": {
+        "podName": "ObjectiveSugar",
+        "constraint": "=",
+        "version": "1.1.0"
+      },
+      "ReactiveCocoa": {
+        "podName": "ReactiveCocoa",
+        "constraint": "=",
+        "version": "2.5"
+      },
+      "RegExCategories": {
+        "podName": "RegExCategories",
+        "constraint": "=",
+        "version": "1.0"
+      }
+    },
+    "podName": "OrienteBase",
+    "remoteRepo": "",
+    "version": "1.0.2",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "OrienteDomainProfile": {
+    "inversionDependencies": [],
+    "dependencies": {
+      "OrienteUtil": {
+        "podName": "OrienteUtil",
+        "constraint": "=",
+        "version": "1.0.3"
+      }
+    },
+    "podName": "OrienteDomainProfile",
+    "remoteRepo": "",
+    "version": "0.0.5",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "OrienteLogin": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "OrienteLogin": {
+            "podName": "OrienteLogin",
+            "constraint": "=",
+            "version": "0.0.6"
+          },
+          "OrienteUtil": {
+            "podName": "OrienteUtil",
+            "constraint": "=",
+            "version": "1.0.3"
+          }
+        },
+        "podName": "OrienteSignUp",
+        "remoteRepo": "",
+        "version": "0.0.6",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {
+      "OrienteSessionManager": {
+        "podName": "OrienteSessionManager",
+        "constraint": "=",
+        "version": "1.0.1"
+      },
+      "OrienteUserManager": {
+        "podName": "OrienteUserManager",
+        "constraint": "=",
+        "version": "0.0.5"
+      },
+      "OrienteUtil": {
+        "podName": "OrienteUtil",
+        "constraint": "=",
+        "version": "1.0.3"
+      }
+    },
+    "podName": "OrienteLogin",
+    "remoteRepo": "",
+    "version": "0.0.6",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "OrienteServiceCluster": {
+    "inversionDependencies": [],
+    "dependencies": {
+      "OrienteUI": {
+        "podName": "OrienteUI",
+        "constraint": "=",
+        "version": "1.0.3"
+      }
+    },
+    "podName": "OrienteServiceCluster",
+    "remoteRepo": "",
+    "version": "1.0.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "OrienteSessionManager": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [],
+            "dependencies": {
+              "OrienteLogin": {
+                "podName": "OrienteLogin",
+                "constraint": "=",
+                "version": "0.0.6"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteSignUp",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "OrienteSessionManager": {
+            "podName": "OrienteSessionManager",
+            "constraint": "=",
+            "version": "1.0.1"
+          },
+          "OrienteUserManager": {
+            "podName": "OrienteUserManager",
+            "constraint": "=",
+            "version": "0.0.5"
+          },
+          "OrienteUtil": {
+            "podName": "OrienteUtil",
+            "constraint": "=",
+            "version": "1.0.3"
+          }
+        },
+        "podName": "OrienteLogin",
+        "remoteRepo": "",
+        "version": "0.0.6",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {
+      "Aspects": {
+        "podName": "Aspects",
+        "constraint": "=",
+        "version": "1.4.1a"
+      },
+      "ReactiveCocoa": {
+        "podName": "ReactiveCocoa",
+        "constraint": "=",
+        "version": "2.5"
+      }
+    },
+    "podName": "OrienteSessionManager",
+    "remoteRepo": "",
+    "version": "1.0.1",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "OrienteSignUp": {
+    "inversionDependencies": [],
+    "dependencies": {
+      "OrienteLogin": {
+        "podName": "OrienteLogin",
+        "constraint": "=",
+        "version": "0.0.6"
+      },
+      "OrienteUtil": {
+        "podName": "OrienteUtil",
+        "constraint": "=",
+        "version": "1.0.3"
+      }
+    },
+    "podName": "OrienteSignUp",
+    "remoteRepo": "",
+    "version": "0.0.6",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "OrienteUI": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "OrienteUI": {
+            "podName": "OrienteUI",
+            "constraint": "=",
+            "version": "1.0.3"
+          }
+        },
+        "podName": "OrienteServiceCluster",
+        "remoteRepo": "",
+        "version": "1.0.0",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {
+      "MJExtension": {
+        "podName": "MJExtension",
+        "constraint": "=",
+        "version": "3.0.13"
+      },
+      "OrienteUtil": {
+        "podName": "OrienteUtil",
+        "constraint": "=",
+        "version": "1.0.3"
+      }
+    },
+    "podName": "OrienteUI",
+    "remoteRepo": "",
+    "version": "1.0.3",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "OrienteUserManager": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [],
+            "dependencies": {
+              "OrienteLogin": {
+                "podName": "OrienteLogin",
+                "constraint": "=",
+                "version": "0.0.6"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteSignUp",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "OrienteSessionManager": {
+            "podName": "OrienteSessionManager",
+            "constraint": "=",
+            "version": "1.0.1"
+          },
+          "OrienteUserManager": {
+            "podName": "OrienteUserManager",
+            "constraint": "=",
+            "version": "0.0.5"
+          },
+          "OrienteUtil": {
+            "podName": "OrienteUtil",
+            "constraint": "=",
+            "version": "1.0.3"
+          }
+        },
+        "podName": "OrienteLogin",
+        "remoteRepo": "",
+        "version": "0.0.6",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {
+      "YYModel": { "podName": "YYModel", "constraint": "=", "version": "1.0.4" }
+    },
+    "podName": "OrienteUserManager",
+    "remoteRepo": "",
+    "version": "0.0.5",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "OrienteUtil": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "OrienteUtil": {
+            "podName": "OrienteUtil",
+            "constraint": "=",
+            "version": "1.0.3"
+          }
+        },
+        "podName": "OrienteDomainProfile",
+        "remoteRepo": "",
+        "version": "0.0.5",
+        "vc": "=",
+        "branchType": "tag"
+      },
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [],
+            "dependencies": {
+              "OrienteLogin": {
+                "podName": "OrienteLogin",
+                "constraint": "=",
+                "version": "0.0.6"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteSignUp",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "OrienteSessionManager": {
+            "podName": "OrienteSessionManager",
+            "constraint": "=",
+            "version": "1.0.1"
+          },
+          "OrienteUserManager": {
+            "podName": "OrienteUserManager",
+            "constraint": "=",
+            "version": "0.0.5"
+          },
+          "OrienteUtil": {
+            "podName": "OrienteUtil",
+            "constraint": "=",
+            "version": "1.0.3"
+          }
+        },
+        "podName": "OrienteLogin",
+        "remoteRepo": "",
+        "version": "0.0.6",
+        "vc": "=",
+        "branchType": "tag"
+      },
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "OrienteLogin": {
+            "podName": "OrienteLogin",
+            "constraint": "=",
+            "version": "0.0.6"
+          },
+          "OrienteUtil": {
+            "podName": "OrienteUtil",
+            "constraint": "=",
+            "version": "1.0.3"
+          }
+        },
+        "podName": "OrienteSignUp",
+        "remoteRepo": "",
+        "version": "0.0.6",
+        "vc": "=",
+        "branchType": "tag"
+      },
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [],
+            "dependencies": {
+              "OrienteUI": {
+                "podName": "OrienteUI",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteServiceCluster",
+            "remoteRepo": "",
+            "version": "1.0.0",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "MJExtension": {
+            "podName": "MJExtension",
+            "constraint": "=",
+            "version": "3.0.13"
+          },
+          "OrienteUtil": {
+            "podName": "OrienteUtil",
+            "constraint": "=",
+            "version": "1.0.3"
+          }
+        },
+        "podName": "OrienteUI",
+        "remoteRepo": "",
+        "version": "1.0.3",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {
+      "SSZipArchive": { "podName": "SSZipArchive", "constraint": "=" },
+      "YYModel": { "podName": "YYModel", "constraint": "=", "version": "1.0.4" }
+    },
+    "podName": "OrienteUtil",
+    "remoteRepo": "",
+    "version": "1.0.3",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "pop": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "pop",
+    "remoteRepo": "",
+    "version": "1.0.10",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "ReactiveCocoa": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "AFNetworking": {
+            "podName": "AFNetworking",
+            "constraint": "=",
+            "version": "3.1.0"
+          },
+          "Aspects": {
+            "podName": "Aspects",
+            "constraint": "=",
+            "version": "1.4.1a"
+          },
+          "FCUUID": {
+            "podName": "FCUUID",
+            "constraint": "=",
+            "version": "1.3.1"
+          },
+          "Masonry": {
+            "podName": "Masonry",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ObjectiveSugar": {
+            "podName": "ObjectiveSugar",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ReactiveCocoa": {
+            "podName": "ReactiveCocoa",
+            "constraint": "=",
+            "version": "2.5"
+          },
+          "RegExCategories": {
+            "podName": "RegExCategories",
+            "constraint": "=",
+            "version": "1.0"
+          }
+        },
+        "podName": "OrienteBase",
+        "remoteRepo": "",
+        "version": "1.0.2",
+        "vc": "=",
+        "branchType": "tag"
+      },
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [
+              {
+                "inversionDependencies": [],
+                "dependencies": {
+                  "OrienteLogin": {
+                    "podName": "OrienteLogin",
+                    "constraint": "=",
+                    "version": "0.0.6"
+                  },
+                  "OrienteUtil": {
+                    "podName": "OrienteUtil",
+                    "constraint": "=",
+                    "version": "1.0.3"
+                  }
+                },
+                "podName": "OrienteSignUp",
+                "remoteRepo": "",
+                "version": "0.0.6",
+                "vc": "=",
+                "branchType": "tag"
+              }
+            ],
+            "dependencies": {
+              "OrienteSessionManager": {
+                "podName": "OrienteSessionManager",
+                "constraint": "=",
+                "version": "1.0.1"
+              },
+              "OrienteUserManager": {
+                "podName": "OrienteUserManager",
+                "constraint": "=",
+                "version": "0.0.5"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteLogin",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "Aspects": {
+            "podName": "Aspects",
+            "constraint": "=",
+            "version": "1.4.1a"
+          },
+          "ReactiveCocoa": {
+            "podName": "ReactiveCocoa",
+            "constraint": "=",
+            "version": "2.5"
+          }
+        },
+        "podName": "OrienteSessionManager",
+        "remoteRepo": "",
+        "version": "1.0.1",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "ReactiveCocoa",
+    "remoteRepo": "",
+    "version": "2.5",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "RegExCategories": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [],
+        "dependencies": {
+          "AFNetworking": {
+            "podName": "AFNetworking",
+            "constraint": "=",
+            "version": "3.1.0"
+          },
+          "Aspects": {
+            "podName": "Aspects",
+            "constraint": "=",
+            "version": "1.4.1a"
+          },
+          "FCUUID": {
+            "podName": "FCUUID",
+            "constraint": "=",
+            "version": "1.3.1"
+          },
+          "Masonry": {
+            "podName": "Masonry",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ObjectiveSugar": {
+            "podName": "ObjectiveSugar",
+            "constraint": "=",
+            "version": "1.1.0"
+          },
+          "ReactiveCocoa": {
+            "podName": "ReactiveCocoa",
+            "constraint": "=",
+            "version": "2.5"
+          },
+          "RegExCategories": {
+            "podName": "RegExCategories",
+            "constraint": "=",
+            "version": "1.0"
+          }
+        },
+        "podName": "OrienteBase",
+        "remoteRepo": "",
+        "version": "1.0.2",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "RegExCategories",
+    "remoteRepo": "",
+    "version": "1.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "Reveal-SDK": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "Reveal-SDK",
+    "remoteRepo": "",
+    "version": "8",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "Segment-Countly": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "Segment-Countly",
+    "remoteRepo": "",
+    "version": "1.0.1",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "Segment-Firebase": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "Segment-Firebase",
+    "remoteRepo": "",
+    "version": "2.0.0",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "SSZipArchive": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [],
+            "dependencies": {
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteDomainProfile",
+            "remoteRepo": "",
+            "version": "0.0.5",
+            "vc": "=",
+            "branchType": "tag"
+          },
+          {
+            "inversionDependencies": [
+              {
+                "inversionDependencies": [],
+                "dependencies": {
+                  "OrienteLogin": {
+                    "podName": "OrienteLogin",
+                    "constraint": "=",
+                    "version": "0.0.6"
+                  },
+                  "OrienteUtil": {
+                    "podName": "OrienteUtil",
+                    "constraint": "=",
+                    "version": "1.0.3"
+                  }
+                },
+                "podName": "OrienteSignUp",
+                "remoteRepo": "",
+                "version": "0.0.6",
+                "vc": "=",
+                "branchType": "tag"
+              }
+            ],
+            "dependencies": {
+              "OrienteSessionManager": {
+                "podName": "OrienteSessionManager",
+                "constraint": "=",
+                "version": "1.0.1"
+              },
+              "OrienteUserManager": {
+                "podName": "OrienteUserManager",
+                "constraint": "=",
+                "version": "0.0.5"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteLogin",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          },
+          {
+            "inversionDependencies": [],
+            "dependencies": {
+              "OrienteLogin": {
+                "podName": "OrienteLogin",
+                "constraint": "=",
+                "version": "0.0.6"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteSignUp",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          },
+          {
+            "inversionDependencies": [
+              {
+                "inversionDependencies": [],
+                "dependencies": {
+                  "OrienteUI": {
+                    "podName": "OrienteUI",
+                    "constraint": "=",
+                    "version": "1.0.3"
+                  }
+                },
+                "podName": "OrienteServiceCluster",
+                "remoteRepo": "",
+                "version": "1.0.0",
+                "vc": "=",
+                "branchType": "tag"
+              }
+            ],
+            "dependencies": {
+              "MJExtension": {
+                "podName": "MJExtension",
+                "constraint": "=",
+                "version": "3.0.13"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteUI",
+            "remoteRepo": "",
+            "version": "1.0.3",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "SSZipArchive": { "podName": "SSZipArchive", "constraint": "=" },
+          "YYModel": {
+            "podName": "YYModel",
+            "constraint": "=",
+            "version": "1.0.4"
+          }
+        },
+        "podName": "OrienteUtil",
+        "remoteRepo": "",
+        "version": "1.0.3",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "SSZipArchive",
+    "remoteRepo": "",
+    "version": "",
+    "branchType": "tag"
+  },
+  "StyleSheet": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "StyleSheet",
+    "remoteRepo": "",
+    "version": "0.1.5",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "UITableView+FDTemplateLayoutCell": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "UITableView+FDTemplateLayoutCell",
+    "remoteRepo": "",
+    "version": "1.6",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "YYCache": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "YYCache",
+    "remoteRepo": "",
+    "version": "1.0.4",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "YYModel": {
+    "inversionDependencies": [
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [
+              {
+                "inversionDependencies": [],
+                "dependencies": {
+                  "OrienteLogin": {
+                    "podName": "OrienteLogin",
+                    "constraint": "=",
+                    "version": "0.0.6"
+                  },
+                  "OrienteUtil": {
+                    "podName": "OrienteUtil",
+                    "constraint": "=",
+                    "version": "1.0.3"
+                  }
+                },
+                "podName": "OrienteSignUp",
+                "remoteRepo": "",
+                "version": "0.0.6",
+                "vc": "=",
+                "branchType": "tag"
+              }
+            ],
+            "dependencies": {
+              "OrienteSessionManager": {
+                "podName": "OrienteSessionManager",
+                "constraint": "=",
+                "version": "1.0.1"
+              },
+              "OrienteUserManager": {
+                "podName": "OrienteUserManager",
+                "constraint": "=",
+                "version": "0.0.5"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteLogin",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "YYModel": {
+            "podName": "YYModel",
+            "constraint": "=",
+            "version": "1.0.4"
+          }
+        },
+        "podName": "OrienteUserManager",
+        "remoteRepo": "",
+        "version": "0.0.5",
+        "vc": "=",
+        "branchType": "tag"
+      },
+      {
+        "inversionDependencies": [
+          {
+            "inversionDependencies": [],
+            "dependencies": {
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteDomainProfile",
+            "remoteRepo": "",
+            "version": "0.0.5",
+            "vc": "=",
+            "branchType": "tag"
+          },
+          {
+            "inversionDependencies": [
+              {
+                "inversionDependencies": [],
+                "dependencies": {
+                  "OrienteLogin": {
+                    "podName": "OrienteLogin",
+                    "constraint": "=",
+                    "version": "0.0.6"
+                  },
+                  "OrienteUtil": {
+                    "podName": "OrienteUtil",
+                    "constraint": "=",
+                    "version": "1.0.3"
+                  }
+                },
+                "podName": "OrienteSignUp",
+                "remoteRepo": "",
+                "version": "0.0.6",
+                "vc": "=",
+                "branchType": "tag"
+              }
+            ],
+            "dependencies": {
+              "OrienteSessionManager": {
+                "podName": "OrienteSessionManager",
+                "constraint": "=",
+                "version": "1.0.1"
+              },
+              "OrienteUserManager": {
+                "podName": "OrienteUserManager",
+                "constraint": "=",
+                "version": "0.0.5"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteLogin",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          },
+          {
+            "inversionDependencies": [],
+            "dependencies": {
+              "OrienteLogin": {
+                "podName": "OrienteLogin",
+                "constraint": "=",
+                "version": "0.0.6"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteSignUp",
+            "remoteRepo": "",
+            "version": "0.0.6",
+            "vc": "=",
+            "branchType": "tag"
+          },
+          {
+            "inversionDependencies": [
+              {
+                "inversionDependencies": [],
+                "dependencies": {
+                  "OrienteUI": {
+                    "podName": "OrienteUI",
+                    "constraint": "=",
+                    "version": "1.0.3"
+                  }
+                },
+                "podName": "OrienteServiceCluster",
+                "remoteRepo": "",
+                "version": "1.0.0",
+                "vc": "=",
+                "branchType": "tag"
+              }
+            ],
+            "dependencies": {
+              "MJExtension": {
+                "podName": "MJExtension",
+                "constraint": "=",
+                "version": "3.0.13"
+              },
+              "OrienteUtil": {
+                "podName": "OrienteUtil",
+                "constraint": "=",
+                "version": "1.0.3"
+              }
+            },
+            "podName": "OrienteUI",
+            "remoteRepo": "",
+            "version": "1.0.3",
+            "vc": "=",
+            "branchType": "tag"
+          }
+        ],
+        "dependencies": {
+          "SSZipArchive": { "podName": "SSZipArchive", "constraint": "=" },
+          "YYModel": {
+            "podName": "YYModel",
+            "constraint": "=",
+            "version": "1.0.4"
+          }
+        },
+        "podName": "OrienteUtil",
+        "remoteRepo": "",
+        "version": "1.0.3",
+        "vc": "=",
+        "branchType": "tag"
+      }
+    ],
+    "dependencies": {},
+    "podName": "YYModel",
+    "remoteRepo": "",
+    "version": "1.0.4",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "YYText": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "YYText",
+    "remoteRepo": "",
+    "version": "1.0.7",
+    "vc": "=",
+    "branchType": "tag"
+  },
+  "ZYBannerView": {
+    "inversionDependencies": [],
+    "dependencies": {},
+    "podName": "ZYBannerView",
+    "remoteRepo": "",
+    "version": "1.1.4",
+    "vc": "=",
+    "branchType": "tag"
+  }
+}

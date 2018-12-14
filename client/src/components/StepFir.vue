@@ -1,6 +1,6 @@
 <template>
   <div class="tac">
-    <el-upload ref="upload" class="upload-demo" :auto-upload="true" drag action="http://192.168.13.118:7001/upload"
+    <el-upload ref="upload" class="upload-demo" :auto-upload="true" drag action="http://localhost:7001/upload"
       :on-success="onSuccess" :limit="1">
       <i class="el-icon-upload"></i>
       <div class="el-upload__text">将文件拖到此处，或<em>点击上传</em></div>

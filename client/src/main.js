@@ -8,7 +8,7 @@ import VueSocketIO from 'vue-socket.io'
 import vuescroll from 'vuescroll'
 import 'vuescroll/dist/vuescroll.css'
 
-axios.defaults.baseURL = 'http://localhost:7001'
+axios.defaults.baseURL = '/'
 Vue.use(vuescroll, {
   ops: {
     mode: 'native',
@@ -24,7 +24,7 @@ Vue.use(vuescroll, {
 Vue.use(
   new VueSocketIO({
     debug: true,
-    connection: 'http://localhost:7001/'
+    connection: '/'
   })
 )
 

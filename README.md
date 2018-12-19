@@ -1,6 +1,15 @@
 # PodDependency
 A convenient platform to help manage private Pod.
 
+# ssh-agent key config
+1. vim ~/.ssh/config , add below on the top
+```
+Host *
+    ForwardAgent yes
+```
+
+2. ssh-add ~/.ssh/id_rsa
+
 # Installation
 
 ## client

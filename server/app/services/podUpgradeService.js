@@ -75,6 +75,8 @@ module.exports = {
       }
 
       try {
+        // 临时解决: 因为库push之后，本地的pod库并没有指向最新，必须要执行一次 pod repo update
+        await command.asyncPodRepoUpdate();
         const specRepoInfo = await command.podSpecsInfo(node.podName, oldVersion);
         const specStream = new SpecStream(specRepoInfo.path);
         const newPath = path.join(os.tmpdir(), node.podName + '.podspec');
@@ -91,8 +93,6 @@ module.exports = {
           }
           return ret;
         }, Object.create(null)));
-        // 临时解决: 因为库push之后，本地的pod库并没有指向最新，必须要执行一次 pod repo update
-        await command.asyncPodRepoUpdate();
         return await command.asyncPodRepoPush(specRepoInfo.repo, newPath);
       } catch (error) {
         throw new Error('Push Specs- ' + node.podName + ': Push Failed ' + error.message);

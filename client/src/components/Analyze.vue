@@ -3,7 +3,7 @@
     <el-container>
       <el-aside width="400px">
         <el-header height="auto">
-          <el-upload class="upload-demo" :auto-upload="true" drag action="http://localhost:8088/upload" multiple>
+          <el-upload class="upload-demo" :auto-upload="true" drag action="http://localhost:7001/upload" multiple>
             <i class="el-icon-upload"></i>
             <div class="el-upload__text">将文件拖到此处，或<em>点击上传</em></div>
           </el-upload>

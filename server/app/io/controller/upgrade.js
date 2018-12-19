@@ -8,21 +8,24 @@ class UpgradeController extends Controller {
 
     const { ctx, app } = this;
     const socket = ctx.socket;
+    let ret = true;
     try {
       await upgradeService.upgradePod(ctx.args[0].node, ctx.args[0].oldVersion, this.config.gitSignature);
     } catch (error) {
       await socket.emit('updated', error);
+      ret = false;
       app.logger.error(error);
     }
 
-    try {
-      await socket.emit('updated', 'Success');
-    } catch (error) {
-      // 如果回调失败了，尝试广播一次
-      await app.io.sockets.emit('updated', 'Success');
-      app.logger.error(error);
+    if (ret) {
+      try {
+        await socket.emit('updated', 'Success');
+      } catch (error) {
+        // 如果回调失败了，尝试广播一次
+        await app.io.sockets.emit('updated', 'Success');
+        app.logger.error(error);
+      }
     }
-
   }
 }
 

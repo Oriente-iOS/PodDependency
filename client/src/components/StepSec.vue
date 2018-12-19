@@ -202,7 +202,7 @@ export default {
         }
       })
 
-      this.$socket.emit('upgrade', { node: this.node, oldVersion: this.oldVersion })
+      this.$socket.emit('upgrade', { node: this.node, oldVersion: item.oldVersion })
     },
     checkChange () {
       this.show = false
